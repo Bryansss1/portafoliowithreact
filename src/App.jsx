@@ -25,8 +25,15 @@ const [tecnosButton,setTecnobutton]=useState(false)
 const [proyectsButton,setPoryectsbutton]=useState(false)
 
   return (
+    <div className='burbujas'>
+        <div className='burbu'></div>
+        <div className='burbu'></div>
+        <div className='burbu'></div>
+        <div className='burbu'></div>
+        <div className='burbu'></div>
+        <div className='burbu'></div>
+        <div className='burbu'></div>
     <div className="App">
-      
       <header>
         <nav className="nav-bloque-principal">
             <input type="checkbox" id="check" className="nav-input"/>
@@ -210,6 +217,7 @@ const [proyectsButton,setPoryectsbutton]=useState(false)
         </section>
     </footer>
     </div>
+</div>
   )
 
 }
