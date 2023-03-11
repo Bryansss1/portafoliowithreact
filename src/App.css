@@ -306,8 +306,12 @@ animation: sombras infinite 2.5s;
     display: grid;
     flex-direction: column;
     text-align: center;
-    margin: 1rem 1.5rem;
-   gap: 1rem;
+    margin: 1rem;
+    gap: 1rem;
+}
+.imagenes-portafolio a p{
+width: 100%;
+overflow: auto;
 }
 .imagenes-portafolio a img{
     width: 100%;
@@ -328,13 +332,16 @@ animation: sombras infinite 2.5s;
     margin-bottom: 1rem;
 }
 .imagenes-portafolio a{
-    
+    margin: auto;
     transition: all .5s;
    border-top-left-radius: 15%;
    border-bottom-right-radius: 5%;
     align-items: center;
     justify-content: center;
     gap: .1rem;
+    width: 100%;
+    height: auto;
+    max-width: 25rem;
     flex-direction: column;
    display: flex;
     border: 1px solid rgba(128, 128, 128, 0.568);
@@ -628,7 +635,7 @@ box-shadow: 1px 1px 6px 1px white;
    margin-bottom: 8rem;
    }
    .imagenes-portafolio img{
-    max-width: 20rem;
+    max-width: 10rem;
     padding-left: 1rem;
    }
    .portafolio-title{
