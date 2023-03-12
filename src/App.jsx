@@ -21,7 +21,7 @@ import jobsmatchimg from "./assets/img/proyects/jobsapkproyect.png"
 function App() {
 const [tecnosButton,setTecnobutton]=useState(false)
 const [proyectsButton,setPoryectsbutton]=useState(false)
-
+//a
   return (
     <div className='burbujas'>
         <div className='burbu'></div>
