@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
 import menuimg from "./assets/img/Íconos/menu1.png"
 import linkedinimg from "./assets/img/Íconos/linkedin.svg"
@@ -7,8 +6,6 @@ import mailimg from "./assets/img/Íconos/mail 1.svg"
 import mobileimg from "./assets/img/Íconos/mobile.svg"
 import phoneimg from "./assets/img/Íconos/phone.svg"
 import webimg from "./assets/img/Íconos/web.svg"
-import telegramimg from "./assets/img/Íconos/telegram.png"
-import materialimg from "./assets/img/Íconos/material.svg"
 import motionimg from "./assets/img/Íconos/motion.svg"
 import ecommercelandingpage1 from "./assets/img/proyects/ecommerce1.png"
 import ecommercecompleto from "./assets/img/proyects/ecommerce2.png"
@@ -19,7 +16,7 @@ import papergame from "./assets/img/proyects/papelgame.png"
 import usercrud from "./assets/img/proyects/userscrud.png"
 import passwordgenerator from "./assets/img/proyects/generator.png"
 import climaappimg from "./assets/img/proyects/climaapp.png"
-import jobsmatchimg from "./assets/img/proyects/jobsapkproyect.PNG"
+import jobsmatchimg from "./assets/img/proyects/jobsapkproyect.png"
 
 function App() {
 const [tecnosButton,setTecnobutton]=useState(false)
