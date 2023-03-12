@@ -16,7 +16,7 @@ import papergame from "./assets/img/proyects/papelgame.png"
 import usercrud from "./assets/img/proyects/userscrud.png"
 import passwordgenerator from "./assets/img/proyects/generator.png"
 import climaappimg from "./assets/img/proyects/climaapp.png"
-//import jobsmatchimg from "./assets/img/proyects/jobsapkproyect.png"
+import jobsmatchimg from "./assets/img/proyects/jobsss.png"
 
 function App() {
 const [tecnosButton,setTecnobutton]=useState(false)
@@ -165,7 +165,7 @@ const [proyectsButton,setPoryectsbutton]=useState(false)
                 <h3 className="portafolio-title" id="proye">Portafolio <span style={{color:"purple"}}>Full-stack</span></h3>
                 </div>
                 <article className="imagenes-portafolio">
-                   <a target="_blank" href='https://drive.google.com/file/d/1_O4-ALxqtAJCpUVFBdqVeTRrsUUrFRzf/view?usp=sharing'><p>Jobs match</p> <p>Tecnologias:React-native|style-components|typescript|Api|Node.js|postgreSQL|express|Javascript</p> <img src={climaappimg} target="_blank" alt="clima app"/> <p className="alo">Una aplicacion de busqueda de trabajo Pruebala!</p></a>
+                   <a target="_blank" href='https://drive.google.com/file/d/1_O4-ALxqtAJCpUVFBdqVeTRrsUUrFRzf/view?usp=sharing'><p>Jobs match</p> <p>Tecnologias:React-native|style-components|typescript|Api|Node.js|postgreSQL|express|Javascript</p> <img src={jobsmatchimg} target="_blank" alt="clima app"/> <p className="alo">Una aplicacion de busqueda de trabajo Pruebala!</p></a>
                    <a target="_blank" href="https://ecommerce2y.netlify.app/"><p>Ecommerce 2</p> <p>Tecnologias:React+vite| Axios| Api| Css Boostrap| Javascript| React redux| React router |sweetAlertv2</p> <img src={ecommercecompleto} target="_blank" alt="ecommerce2"/> <p className="alo">Un Ecommerce completo con funcionalidades de carrito de compras, login,buscador,filtrados entre otras</p></a>
                    <a target="_blank" href="https://pokewikii.netlify.app/"><p>Pokewiki</p> <p>Tecnologias:React+vite| Axios| Api| Css Boostrap Sass| Javascript| React redux| React router |sweetAlertv2</p> <img src={pokeapiimg} target="_blank" alt="pokeaqpi"/> <p className="alo">Una wikipedia de Pokemon que ofrece informacion de todos los personajes de la franquicia</p> </a>
                    <a target="_blank" href="https://wikipedia-rick-and-morty.netlify.app/"><p>RickandmortyWiki</p> <p>Tecnologias:React+vite| Axios| Api| Css| Javascript</p> <img src={rickymortyimg} target="_blank" alt="proyecto2"/> <p className="alo">Wikipedia de la serie de rick and morty donde muestra informacion de todos los personajes de la serie</p></a>
@@ -178,7 +178,7 @@ const [proyectsButton,setPoryectsbutton]=useState(false)
                 <h3 className="portafolio-title" id="proye">Portafolio <span style={{color:"blue"}}>Frontend</span></h3>
                 </div>
                 <article className="imagenes-portafolio">
-                   <a target="_blank" href="https://jobsmatch.netlify.app/"><p>Jobs match landing page</p> <p>Tecnologias:React+vite|Html5|Css|Javascript</p><img src={climaappimg} target="_blank" alt="ecommerce1"/> <p className="alo">Landing page de la app Jobs match</p></a>
+                   <a target="_blank" href="https://jobsmatch.netlify.app/"><p>Jobs match landing page</p> <p>Tecnologias:React+vite|Html5|Css|Javascript</p><img src={jobsmatchimg} target="_blank" alt="ecommerce1"/> <p className="alo">Landing page de la app Jobs match</p></a>
                    <a target="_blank" href="https://ecommercebryansss1.netlify.app/"><p>Ecommerce 1 landing page</p> <p>Tecnologias:Html5|Css|Javascript</p><img src={ecommercelandingpage1} target="_blank" alt="ecommerce1"/> <p className="alo">Una visualizacion de un ecommerce (tienda virtual)</p></a>
                    <a target="_blank" href="https://spacepageeee.netlify.app"> <p>Space turist</p> <p>Tecnologias:React+vite| Api| Css Boostrap| Javascript| React router |</p> <img src={spacepage} target="_blank" alt="spaceptyect"/> <p className="alo">Pagina dedicada al turismo espacial</p></a>
                    <a target="_blank" href="https://gamepapelbryansss1.netlify.app"><p>PaperRockScissers game</p> <p>Tecnologias:React+vite| Css Sass| Javascript| React redux| React router </p> <img src={papergame} target="_blank" alt="papelgame"/> <p className="alo">El juego de piedra papel y tijera para jugarlo con un amigo en el mismo dispositivo o solo con el bot</p></a>
