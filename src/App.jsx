@@ -65,7 +65,7 @@ const [proyectsButton,setPoryectsbutton]=useState(false)
             <div className="iconos-perfil">
                 <a href="https://www.linkedin.com/in/bryan-david-sanabria-azuaje-025040253/" target="_blank"><img src={linkedinimg}alt="" /></a>
                 <a href="https://github.com/Bryansss1" target="_blank"><img src="https://www.pngarts.com/files/8/Github-Logo-PNG-Pic.png" alt="" /></a>
-                <a className="iiii" href="/src/cv/bryan cv friendlybot PDF 2023.docx" target="_blank" download="/src/cv/bryan cv friendlybot PDF 2023.docx">Descargar CV<i className='bx bx-receipt iii'></i></a>
+                <a className="iiii" href="https://docs.google.com/document/d/1OOXZI5Krln8CZ945dwl4rzSgHgP_Kxgg/edit?usp=share_link&ouid=106728460461187924530&rtpof=true&sd=true" target="_blank" download="/src/cv/bryan cv friendlybot PDF 2023.docx">Descargar CV<i className='bx bx-receipt iii'></i></a>
             </div>
         </section>
     </header>
@@ -91,7 +91,7 @@ const [proyectsButton,setPoryectsbutton]=useState(false)
                 <div className="iconzzz">
                 <a href="https://www.linkedin.com/in/bryan-david-sanabria-azuaje-025040253/" target="_blank"><img src={linkedinimg} alt="linkedin logo"/></a>
                 <a href="https://github.com/Bryansss1" target="_blank"><img src="https://www.pngarts.com/files/8/Github-Logo-PNG-Pic.png" alt="github logo" /></a>
-                <a className="iiii" href="/src/cv/bryan cv friendlybot PDF 2023.docx" target="_blank" download="/src/cv/bryan cv friendlybot PDF 2023.docx">Descargar CV<i className='bx bx-receipt iii'></i></a>
+                <a className="iiii" href="https://docs.google.com/document/d/1OOXZI5Krln8CZ945dwl4rzSgHgP_Kxgg/edit?usp=share_link&ouid=106728460461187924530&rtpof=true&sd=true" target="_blank" download="/src/cv/bryan cv friendlybot PDF 2023.docx">Descargar CV<i className='bx bx-receipt iii'></i></a>
                 </div>
                 
                 </article>
@@ -209,7 +209,7 @@ const [proyectsButton,setPoryectsbutton]=useState(false)
                 <small>bryandavidaaa@gmail.com</small>
             </div>
 
-            <a href="/src/cv/bryan cv friendlybot PDF 2023.docx" target="_blank" download="/src/cv/bryan cv friendlybot PDF 2023.docx" className="item-contactos">
+            <a href="https://docs.google.com/document/d/1OOXZI5Krln8CZ945dwl4rzSgHgP_Kxgg/edit?usp=share_link&ouid=106728460461187924530&rtpof=true&sd=true" target="_blank" download="/src/cv/bryan cv friendlybot PDF 2023.docx" className="item-contactos">
                 <i className='bx bx-receipt zzz'></i>
                 <p>CV</p>
                 <small>@Bryan david sanabria azuaje 2022</small>
