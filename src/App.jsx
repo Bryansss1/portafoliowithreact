@@ -19,7 +19,7 @@ import papergame from "./assets/img/proyects/papelgame.png"
 import usercrud from "./assets/img/proyects/userscrud.png"
 import passwordgenerator from "./assets/img/proyects/generator.png"
 import climaappimg from "./assets/img/proyects/climaapp.png"
-import jobsmatchimg from "./assets/img/proyects/jobsapkproyect.png"
+import jobsmatchimg from "./assets/img/proyects/jobsapkproyect.PNG"
 
 function App() {
 const [tecnosButton,setTecnobutton]=useState(false)
