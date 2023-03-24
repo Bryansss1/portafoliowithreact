@@ -218,8 +218,11 @@ animation: sombras infinite 2.5s;
     margin: 1rem 0;
     font-size: 1rem;
 }
+h3{
+    animation: a infinite 4s linear
+}
 .seccion-acerca-de-mi h3{
-  padding-top: 2rem ;
+  margin: 2rem 0rem;
 }
 .seccion-acerca-de-mi p{
     text-align: start;
@@ -308,6 +311,7 @@ animation: sombras infinite 2.5s;
     text-align: center;
     margin: 1rem;
     gap: 1rem;
+    margin-bottom: 5rem;
 }
 .imagenes-portafolio a p{
 width: 100%;
@@ -315,8 +319,8 @@ overflow: auto;
 }
 .imagenes-portafolio a img{
     width: 100%;
-    max-height: 10rem;
-    max-width: 15rem;
+    max-height: 6rem;
+    max-width: 23rem;
     margin: 1rem 0;
     transition: all .5s;
 }
@@ -338,15 +342,20 @@ overflow: auto;
    border-bottom-right-radius: 5%;
     align-items: center;
     justify-content: center;
+    width: 17rem;
     gap: .1rem;
-    width: 100%;
-    height: auto;
-    max-width: 25rem;
+    height: 20rem;
+    padding: .8rem;
     flex-direction: column;
-   display: flex;
+    display: flex;
     border: 1px solid rgba(128, 128, 128, 0.568);
 }
-
+@media screen and (min-width:600px) {
+    .imagenes-portafolio{
+      grid-template-columns: 2fr 2fr;  
+    }
+    
+}
 @keyframes qlq {
     0%,
     100% {
@@ -648,12 +657,23 @@ box-shadow: 1px 1px 6px 1px white;
    .seccion-contactos{
     flex-direction: row;
    }
+   .imagenes-portafolio a{
+    width: 20rem;
+   }
 }
 
 @media screen and (min-width:900px){
     .tecnologias{
         grid-template-columns: 2fr 2fr 2fr;
     }
+    .imagenes-portafolio{
+        grid-template-columns: 2fr  2fr;
+    }
+    .imagenes-portafolio a{
+       
+    }
+}
+@media screen and (min-width:1010px){
     .imagenes-portafolio{
         grid-template-columns: 2fr 2fr 2fr;
     }
